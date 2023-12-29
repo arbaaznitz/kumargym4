@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+        <h1>Kumar Gym</h1>
+        <p>By Kumar Pandurang Chevle</p>
+    </header></br>
+    
+    <nav>
+        <a onclick="showSection('home')">Home</a>|
+        <a onclick="showSection('about')">About Us</a>|
+        <a onclick="showSection('contact')">Contact</a>|
+        <a onclick="showSection('other1')">Other 1</a>|
+        <a onclick="showSection('other2')">Other 2</a>
+    </nav>
+
+
+    
+   
+        
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4e5f50;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #4e5f50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+    <section id="home">
+<body>
+   <h2>Welcome to Kumar Gym</h2>
+        <p>Eat fit, Do workout, Stay healthy!</p>
+        <p>Our services include:</p>
+        <ul>
+            <li>Personal Training</li>
+            <li>Body Massage</li>
+            <li>Cardio Workouts</li>
+            <li>Weight Training</li>
+        </ul>
+   
+        <h2>Membership Plans</h2>
+        <p>Choose a membership plan that suits your fitness goals:</p>
+        <ul>
+            <li>1 MONTH - ₹500/-</li>
+            <li>3 MONTH - ₹1350/-</li>
+            <li>6 MONTH - ₹2400/-</li>
+            <li>1 YEARLY- ₹3700/-</li>
+        <br>
+        <li>Admission Fees :-150/-</li>
+        </ul>
+        <p>______________________________________________________________________________________________________________________________________________________________________</p>
+        <ul type="square"> 
+            <li><b> Time:- Mor. 5.30-10.00AM | Eve.4.00-10.00PM</b></li>
+        </ul>
+
+        <p>To subscribe, visit our gym or contact us at:</p>
+        <p> Email: info@kumargym.com | Phone: 8454988283</p></br></br>
+    </br>
+        
+      
+    
+    
+    
+    <footer>
+        <p>Contact us: info@kumargym.com | Phone: 8454988283</p>
+    </footer>
+</body>
+
+
+    </section>
+
+    <section id="about" style="display: none;">
+        <h2>About Us</h2>
+        <img src="C:\Users\Admin\Pictures\download (1).jpeg" alt="" srcset="">
+        <img src="C:\Users\Admin\Pictures\download.jpeg" alt="" srcset="">
+        <ul>
+        <p><li>Kumar gym is one of the oldest gym in kalamboli,since 2012.</li><br>
+            <li> we have total 10 machines in our gym and best quality equipments</li><br>
+            <li>our trainer is very supportive give you proper guidence make feel you comfortable.</li><br>
+            <li>guide you about your diet plans and workout plans.</li><br>
+        </ul>
+            <centre> <b>Start Your Fitness Journey Today With Us!</b></li> </centre>
+         </p>
+        </br>
+    </section>
+
+    <section id="contact" style="display: none;">
+        <h2>Contact Us</h2>
+        <p>Email:- info@kumargym.com | Phone: 8454988283</p>
+    </section>
+
+    <section id="other1" style="display: none;">
+        <h2>Other Section 1</h2>
+        <p>This is another section of our website.</p>
+    </section>
+
+    <section id="other2" style="display: none;">
+        <h2>Other Section 2</h2>
+        <p>Explore more about what we have to offer in this section.</p>
+    </section>
+    <br>
+
+    <footer>
+        <p>Start Your Fitness Journey Today With Us!</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
